@@ -2,7 +2,6 @@
   "name": "local-selenium-intern",
   "version": "0.0.0",
   "description": "Demonstration of setting up intern using a local selenium installation",
-  "main": "run.js",
   "directories": {
     "test": "tests"
   },
@@ -12,6 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node run.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
