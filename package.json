@@ -1,0 +1,23 @@
+{
+  "name": "local-selenium-intern",
+  "version": "0.0.0",
+  "description": "Demonstration of setting up intern using a local selenium installation",
+  "main": "run.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "intern": "^2.0.1",
+    "selenium-standalone": "^2.42.0-2.9.0-1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gist.github.com/bfbd01d1d17a55da55e4.git"
+  },
+  "author": "Michael Zedeler <michael@zedeler.dk>",
+  "license": "ISC"
+}
