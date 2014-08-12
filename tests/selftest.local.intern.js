@@ -41,9 +41,7 @@ define({
 	// Configuration options for the module loader; any AMD configuration options supported by the Dojo loader can be
 	// used here
 	loader: {
-		// Packages that should be registered with the loader in each testing environment
-//		packages: [ { name: 'intern-selftest', location: '.' } ],
-//		map: { 'intern-selftest': { dojo: 'intern-selftest/node_modules/dojo' } }
+	  // TODO: What to add here?
 	},
 
 	// Non-functional test suite(s) to run in each browser
