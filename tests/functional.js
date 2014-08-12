@@ -11,8 +11,8 @@ define([
         'async test': function () {
             var dfd = this.async(1000);
 
-            request('http://example.com/test.json').then(dfd.callback(function (data) {
-                assert.strictEqual(data, 'Hello world!');
+            request('http://example.com/').then(dfd.callback(function (data) {
+                assert.match(data, /Example Domain/, 'example.com contains the text "Example Domain"');
             }), dfd.reject.bind(dfd));
         }
     });
