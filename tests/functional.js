@@ -3,7 +3,7 @@
 define([
     'intern!object',
     'intern/chai!assert',
-    'request'
+    'intern/dojo/request'
 ], function (registerSuite, assert, request) {
     registerSuite({
         name: 'async demo',
